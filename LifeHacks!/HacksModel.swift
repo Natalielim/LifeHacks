@@ -16,8 +16,7 @@ struct HacksModel {
     func getRandomHack() -> String {
         let randomNumber = GKRandomSource.sharedRandom().nextIntWithUpperBound(hacks.count)
         
-        return hacks[randomNumber] as! String
-        
+        return hacks[randomNumber]
     }
 }
 
