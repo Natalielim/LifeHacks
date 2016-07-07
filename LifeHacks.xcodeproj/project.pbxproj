@@ -14,6 +14,11 @@
 		319E8A4A1D2F12E5001C7D96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 319E8A481D2F12E5001C7D96 /* LaunchScreen.storyboard */; };
 		319E8A551D2F12E5001C7D96 /* LifeHacksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319E8A541D2F12E5001C7D96 /* LifeHacksTests.swift */; };
 		319E8A601D2F12E5001C7D96 /* LifeHacksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319E8A5F1D2F12E5001C7D96 /* LifeHacksUITests.swift */; };
+		319E8A741D2F189F001C7D96 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 319E8A731D2F189F001C7D96 /* NotificationCenter.framework */; };
+		319E8A771D2F189F001C7D96 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319E8A761D2F189F001C7D96 /* TodayViewController.swift */; };
+		319E8A7A1D2F189F001C7D96 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 319E8A781D2F189F001C7D96 /* MainInterface.storyboard */; };
+		319E8A7E1D2F189F001C7D96 /* LifeHacks!.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 319E8A711D2F189F001C7D96 /* LifeHacks!.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		319E8A841D2F1922001C7D96 /* HacksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319E8A831D2F1922001C7D96 /* HacksModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +36,28 @@
 			remoteGlobalIDString = 319E8A3B1D2F12E5001C7D96;
 			remoteInfo = LifeHacks;
 		};
+		319E8A7C1D2F189F001C7D96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 319E8A341D2F12E5001C7D96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 319E8A701D2F189F001C7D96;
+			remoteInfo = "LifeHacks!";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		319E8A821D2F189F001C7D96 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				319E8A7E1D2F189F001C7D96 /* LifeHacks!.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		319E8A3C1D2F12E5001C7D96 /* LifeHacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeHacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +73,12 @@
 		319E8A5B1D2F12E5001C7D96 /* LifeHacksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeHacksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		319E8A5F1D2F12E5001C7D96 /* LifeHacksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeHacksUITests.swift; sourceTree = "<group>"; };
 		319E8A611D2F12E5001C7D96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		319E8A711D2F189F001C7D96 /* LifeHacks!.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "LifeHacks!.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		319E8A731D2F189F001C7D96 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		319E8A761D2F189F001C7D96 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		319E8A791D2F189F001C7D96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		319E8A7B1D2F189F001C7D96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		319E8A831D2F1922001C7D96 /* HacksModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HacksModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +103,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		319E8A6E1D2F189F001C7D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				319E8A741D2F189F001C7D96 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +120,8 @@
 				319E8A3E1D2F12E5001C7D96 /* LifeHacks */,
 				319E8A531D2F12E5001C7D96 /* LifeHacksTests */,
 				319E8A5E1D2F12E5001C7D96 /* LifeHacksUITests */,
+				319E8A751D2F189F001C7D96 /* LifeHacks! */,
+				319E8A721D2F189F001C7D96 /* Frameworks */,
 				319E8A3D1D2F12E5001C7D96 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +132,7 @@
 				319E8A3C1D2F12E5001C7D96 /* LifeHacks.app */,
 				319E8A501D2F12E5001C7D96 /* LifeHacksTests.xctest */,
 				319E8A5B1D2F12E5001C7D96 /* LifeHacksUITests.xctest */,
+				319E8A711D2F189F001C7D96 /* LifeHacks!.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +168,25 @@
 			path = LifeHacksUITests;
 			sourceTree = "<group>";
 		};
+		319E8A721D2F189F001C7D96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				319E8A731D2F189F001C7D96 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		319E8A751D2F189F001C7D96 /* LifeHacks! */ = {
+			isa = PBXGroup;
+			children = (
+				319E8A761D2F189F001C7D96 /* TodayViewController.swift */,
+				319E8A831D2F1922001C7D96 /* HacksModel.swift */,
+				319E8A781D2F189F001C7D96 /* MainInterface.storyboard */,
+				319E8A7B1D2F189F001C7D96 /* Info.plist */,
+			);
+			path = "LifeHacks!";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,10 +197,12 @@
 				319E8A381D2F12E5001C7D96 /* Sources */,
 				319E8A391D2F12E5001C7D96 /* Frameworks */,
 				319E8A3A1D2F12E5001C7D96 /* Resources */,
+				319E8A821D2F189F001C7D96 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				319E8A7D1D2F189F001C7D96 /* PBXTargetDependency */,
 			);
 			name = LifeHacks;
 			productName = LifeHacks;
@@ -181,6 +245,23 @@
 			productReference = 319E8A5B1D2F12E5001C7D96 /* LifeHacksUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		319E8A701D2F189F001C7D96 /* LifeHacks! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 319E8A7F1D2F189F001C7D96 /* Build configuration list for PBXNativeTarget "LifeHacks!" */;
+			buildPhases = (
+				319E8A6D1D2F189F001C7D96 /* Sources */,
+				319E8A6E1D2F189F001C7D96 /* Frameworks */,
+				319E8A6F1D2F189F001C7D96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LifeHacks!";
+			productName = "LifeHacks!";
+			productReference = 319E8A711D2F189F001C7D96 /* LifeHacks!.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,6 +283,9 @@
 						CreatedOnToolsVersion = 7.3.1;
 						TestTargetID = 319E8A3B1D2F12E5001C7D96;
 					};
+					319E8A701D2F189F001C7D96 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 319E8A371D2F12E5001C7D96 /* Build configuration list for PBXProject "LifeHacks" */;
@@ -220,6 +304,7 @@
 				319E8A3B1D2F12E5001C7D96 /* LifeHacks */,
 				319E8A4F1D2F12E5001C7D96 /* LifeHacksTests */,
 				319E8A5A1D2F12E5001C7D96 /* LifeHacksUITests */,
+				319E8A701D2F189F001C7D96 /* LifeHacks! */,
 			);
 		};
 /* End PBXProject section */
@@ -246,6 +331,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		319E8A6F1D2F189F001C7D96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				319E8A7A1D2F189F001C7D96 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +370,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		319E8A6D1D2F189F001C7D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				319E8A841D2F1922001C7D96 /* HacksModel.swift in Sources */,
+				319E8A771D2F189F001C7D96 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -289,6 +391,11 @@
 			isa = PBXTargetDependency;
 			target = 319E8A3B1D2F12E5001C7D96 /* LifeHacks */;
 			targetProxy = 319E8A5C1D2F12E5001C7D96 /* PBXContainerItemProxy */;
+		};
+		319E8A7D1D2F189F001C7D96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 319E8A701D2F189F001C7D96 /* LifeHacks! */;
+			targetProxy = 319E8A7C1D2F189F001C7D96 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -307,6 +414,14 @@
 				319E8A491D2F12E5001C7D96 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		319E8A781D2F189F001C7D96 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				319E8A791D2F189F001C7D96 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -401,6 +516,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = LifeHacks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alitdiamond.LifeHacks;
@@ -412,6 +528,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = LifeHacks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alitdiamond.LifeHacks;
@@ -465,6 +582,28 @@
 			};
 			name = Release;
 		};
+		319E8A801D2F189F001C7D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "LifeHacks!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alitdiamond.LifeHacks.LifeHacks-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		319E8A811D2F189F001C7D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "LifeHacks!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alitdiamond.LifeHacks.LifeHacks-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -484,6 +623,7 @@
 				319E8A661D2F12E5001C7D96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		319E8A671D2F12E5001C7D96 /* Build configuration list for PBXNativeTarget "LifeHacksTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +632,7 @@
 				319E8A691D2F12E5001C7D96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		319E8A6A1D2F12E5001C7D96 /* Build configuration list for PBXNativeTarget "LifeHacksUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +641,16 @@
 				319E8A6C1D2F12E5001C7D96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		319E8A7F1D2F189F001C7D96 /* Build configuration list for PBXNativeTarget "LifeHacks!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				319E8A801D2F189F001C7D96 /* Debug */,
+				319E8A811D2F189F001C7D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
