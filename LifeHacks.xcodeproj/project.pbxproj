@@ -274,7 +274,7 @@
 				TargetAttributes = {
 					319E8A3B1D2F12E5001C7D96 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 74D5U6H7T7;
+						DevelopmentTeam = QF7DSRY6RV;
 					};
 					319E8A4F1D2F12E5001C7D96 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -286,7 +286,7 @@
 					};
 					319E8A701D2F189F001C7D96 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 74D5U6H7T7;
+						DevelopmentTeam = QF7DSRY6RV;
 					};
 				};
 			};
@@ -523,7 +523,7 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = LifeHacks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alitdiamond.LifeHacks;
+				PRODUCT_BUNDLE_IDENTIFIER = com.didilim.LifeHacks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -538,7 +538,7 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = LifeHacks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alitdiamond.LifeHacks;
+				PRODUCT_BUNDLE_IDENTIFIER = com.didilim.LifeHacks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -597,7 +597,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "LifeHacks!/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alitdiamond.LifeHacks.LifeHacks-";
+				PRODUCT_BUNDLE_IDENTIFIER = com.didilim.LifeHacks.Widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
@@ -611,7 +611,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "LifeHacks!/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alitdiamond.LifeHacks.LifeHacks-";
+				PRODUCT_BUNDLE_IDENTIFIER = com.didilim.LifeHacks.Widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;

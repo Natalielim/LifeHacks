@@ -19,42 +19,42 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3. Add 'LifeHacks!' to the displayed widgets and click 'Done'." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zDu-Ya-uvF">
-                                <rect key="frame" x="30" y="268" width="540" height="24"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                <rect key="frame" x="30" y="289.5" width="540" height="21.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4. See a new life hack anytime from the Notification Center." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yf1-Qh-cC6">
-                                <rect key="frame" x="30" y="307" width="540" height="24"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                <rect key="frame" x="30" y="326" width="540" height="21.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. Drag down from the top of your screen to reveal the Notification Center." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="moJ-rr-qXG">
-                                <rect key="frame" x="30" y="166" width="540" height="48"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                <rect key="frame" x="30" y="195" width="540" height="43"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2. Select 'Today'. Scroll down and tap 'Edit'" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wLp-9P-XKM">
-                                <rect key="frame" x="30" y="229" width="540" height="24"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                <rect key="frame" x="30" y="253" width="540" height="21.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to LifeHacks!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqY-BO-eLF">
-                                <rect key="frame" x="144" y="100" width="312.5" height="36"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
-                                <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iTunesArtwork@1x" translatesAutoresizingMaskIntoConstraints="NO" id="V38-kw-5lU">
-                                <rect key="frame" x="250" y="366" width="100" height="100"/>
+                                <rect key="frame" x="250" y="382.5" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="6XM-gZ-j9w"/>
                                     <constraint firstAttribute="height" constant="100" id="M8b-7a-Q2U"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to LifeHacks!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqY-BO-eLF">
+                                <rect key="frame" x="180" y="137.5" width="241" height="27.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="23"/>
+                                <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -62,41 +62,23 @@
                             <constraint firstItem="wLp-9P-XKM" firstAttribute="top" secondItem="moJ-rr-qXG" secondAttribute="bottom" constant="15" id="35G-fT-3wW"/>
                             <constraint firstAttribute="trailingMargin" secondItem="zDu-Ya-uvF" secondAttribute="trailing" constant="10" id="4h2-Jc-4p9"/>
                             <constraint firstItem="moJ-rr-qXG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="5vO-JJ-IbQ"/>
-                            <constraint firstItem="iqY-BO-eLF" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="100" id="GxL-g7-d4O"/>
-                            <constraint firstItem="wLp-9P-XKM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="JhX-Xk-q6A"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="wLp-9P-XKM" secondAttribute="trailing" constant="5" id="O1e-9Y-i0H"/>
+                            <constraint firstItem="wLp-9P-XKM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="OAh-73-t8L"/>
                             <constraint firstAttribute="trailingMargin" secondItem="moJ-rr-qXG" secondAttribute="trailing" constant="10" id="OxB-P1-l2v"/>
                             <constraint firstItem="yf1-Qh-cC6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="QGD-jc-SxN"/>
                             <constraint firstItem="zDu-Ya-uvF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="QLm-Kt-Afw"/>
                             <constraint firstItem="wLp-9P-XKM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="Qei-zp-Hxk"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="moJ-rr-qXG" secondAttribute="trailing" constant="5" id="ReB-3f-NDZ"/>
-                            <constraint firstItem="moJ-rr-qXG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="Szy-GD-RF4"/>
                             <constraint firstAttribute="trailingMargin" secondItem="wLp-9P-XKM" secondAttribute="trailing" constant="10" id="TaK-Fh-8Jz"/>
                             <constraint firstItem="zDu-Ya-uvF" firstAttribute="top" secondItem="wLp-9P-XKM" secondAttribute="bottom" constant="15" id="Ufp-PX-oOS"/>
-                            <constraint firstItem="iqY-BO-eLF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="Xk6-BB-UbV"/>
-                            <constraint firstItem="iqY-BO-eLF" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="25" id="XrL-nv-beA"/>
+                            <constraint firstItem="zDu-Ya-uvF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="X8N-J6-BI5"/>
                             <constraint firstItem="V38-kw-5lU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dFb-jI-o5J"/>
                             <constraint firstItem="iqY-BO-eLF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iX5-Ex-pdA"/>
                             <constraint firstItem="V38-kw-5lU" firstAttribute="top" secondItem="yf1-Qh-cC6" secondAttribute="bottom" constant="35" id="leo-9R-fhG"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="iqY-BO-eLF" secondAttribute="trailing" constant="5" id="p7i-7r-tbq"/>
-                            <constraint firstItem="wLp-9P-XKM" firstAttribute="top" secondItem="moJ-rr-qXG" secondAttribute="bottom" constant="10" id="pIh-cf-TOP"/>
                             <constraint firstAttribute="trailingMargin" secondItem="yf1-Qh-cC6" secondAttribute="trailing" constant="10" id="pgF-nq-uOt"/>
-                            <constraint firstItem="iqY-BO-eLF" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="25" id="rSS-7w-ETU"/>
-                            <constraint firstItem="moJ-rr-qXG" firstAttribute="top" secondItem="iqY-BO-eLF" secondAttribute="bottom" constant="10" id="wRb-pn-nyQ"/>
                             <constraint firstItem="moJ-rr-qXG" firstAttribute="top" secondItem="iqY-BO-eLF" secondAttribute="bottom" constant="30" id="y75-zn-X3C"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="ReB-3f-NDZ"/>
-                                <exclude reference="Szy-GD-RF4"/>
-                                <exclude reference="wRb-pn-nyQ"/>
-                                <exclude reference="Xk6-BB-UbV"/>
-                                <exclude reference="XrL-nv-beA"/>
-                                <exclude reference="p7i-7r-tbq"/>
-                                <exclude reference="rSS-7w-ETU"/>
-                                <exclude reference="JhX-Xk-q6A"/>
-                                <exclude reference="O1e-9Y-i0H"/>
-                                <exclude reference="pIh-cf-TOP"/>
+                                <exclude reference="OAh-73-t8L"/>
                             </mask>
                         </variation>
                     </view>
